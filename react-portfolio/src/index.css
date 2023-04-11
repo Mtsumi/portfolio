@@ -117,7 +117,7 @@ img {
 }
 
 /* ===== MEDIA QUERIES (TABLETS AND ALL) ====== */
-@media screen and (max-widh: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -128,7 +128,7 @@ img {
 }
 
 /* ===== MEDIA QUERIES (PHONES) ====== */
-@media screen and (max-widh: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-sm);
     }
