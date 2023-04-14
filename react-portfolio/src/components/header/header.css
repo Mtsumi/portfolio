@@ -1,6 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    height: 40rem;
+    padding-top: 5rem;
     overflow: hidden;
 }
 
@@ -39,6 +39,8 @@ header {
     background: var(--color-primary);
 }
 
+
+
 /* Typing animation */
 .typing-cursor {
     display: inline-block;
@@ -46,6 +48,31 @@ header {
     height: 1.2em;
     animation: blink 0.8s infinite;
   }
+
+
+/* ============= ME ==============  */
+.me {
+    background: linear-gradient(var(--color-primary), transparent) ;
+    width: 22rem;
+    height: 29rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    /* padding: 5rem 1rem 2rem; */
+}
+
+/* ======= SROLL DOWN ========= */
+.scroll__down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
   
 @keyframes blink {
     50% {
@@ -53,3 +80,22 @@ header {
     }
   }
   
+/* ===== MEDIA QUERIES (TABLETS AND ALL) ====== */
+@media screen and (max-width: 1024px) {
+    header {
+        height: 44 rem;
+    }
+}
+
+/* ===== MEDIA QUERIES (PHONES) ====== */
+@media screen and (max-width: 600px) {
+    header {
+        height: 40rem;
+        padding-top: 4rem;
+    }
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+}
+

@@ -1,9 +1,10 @@
 import React from 'react'
 import './contact.css'
+import Fade from 'react-reveal'
 
 const contact = () => {
   return (
-    <div>contact</div>
+    <Fade bottom><section id='contact'>contact</section></Fade>
   )
 }
 
