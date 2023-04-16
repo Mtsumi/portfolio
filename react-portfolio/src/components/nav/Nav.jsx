@@ -5,6 +5,7 @@ import {SiAboutdotme} from 'react-icons/si'
 import {FaBriefcase} from 'react-icons/fa'
 import {GiLaptop} from 'react-icons/gi'
 import {MdChat} from 'react-icons/md'
+import { MdMiscellaneousServices } from 'react-icons/md'
 
 const navLinks = [
   {
@@ -21,8 +22,13 @@ const navLinks = [
   },
   {
     href: '#services',
-    icon: <GiLaptop />
+    icon: <MdMiscellaneousServices /> 
   },
+  {
+    href: '#portfolio',
+    icon: <GiLaptop />
+  }
+  ,
   {
     href: '#contact',
     icon: <MdChat />

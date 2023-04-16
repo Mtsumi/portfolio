@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import ME from '../../assets/me.jpg'
-import {FaBriefcase} from 'react-icons/fa'
+import AWS from '../../assets/aws.png'
 import {MdOutlineConstruction} from 'react-icons/md'
 import {MdFolderSpecial} from 'react-icons/md'
 const about = () => {
@@ -20,10 +20,15 @@ const about = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className='about__card'>
-              <FaBriefcase />
+              <img src={AWS} alt="AWS" />
+            </article>
+
+            {/* <article className='about__card'>
+            <FaBriefcase />
+              
               <h5>Experience</h5>
               <small>2+ Years Software Development</small>
-            </article>
+            </article> */}
 
             <article className='about__card'>
               <MdOutlineConstruction />
@@ -46,7 +51,7 @@ const about = () => {
           Thank you for visiting my portfolio, and feel free to <a href='#contact'>reach out</a> if you have any questions!
           </p>
 
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          <a href='#contact' className='btn btn-primary talk'>Let's Talk</a>
         </div>
       </div>
     </section>

@@ -70,6 +70,16 @@
     color: var(--color-light);
 }
 
+.badge {
+    background: red;
+}
+
+.talk {
+    position: relative;
+    left: 15rem; /* adjust this value as needed */
+    z-index: 2; /* adjust this value as needed */
+}
+
 /*  ======== MEDIA QUERIES (MEDIUM DEVICES) ========= */
 @media screen and (max-width: 1024px) {
     .about__container {
@@ -98,7 +108,7 @@
     .about__cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem;
-    }
+      }
 
     .about__content {
         text-align: center;
@@ -110,4 +120,7 @@
     .about__card {
         display: none;
     }
+    .talk {
+        left: 4rem; /* or any other value that works for smaller screens */
+      }
 }
