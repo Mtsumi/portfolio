@@ -2,6 +2,7 @@ import React, { useRef } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import { FaWhatsapp } from 'react-icons/fa'
+import {FiPhoneCall} from 'react-icons/fi'
 import emailjs from '@emailjs/browser'
 
 
@@ -34,6 +35,12 @@ const Contact = () => {
               <h4>WhatsApp</h4>
               <h5>+254712531490</h5>
               <a href="https://api.whatsapp.com/send?phone=254712531490" target="__blank" rel="noreferrer"> Send a message</a>
+            </article>
+            <article className='contact__option'>
+              <FiPhoneCall className='contact__option-icon' />
+              <h4>Call Me</h4>
+              <h5>+254712531490</h5>
+              <a href="tel:254712531490" target="__blank" rel="noreferrer"> Give me a Call</a>
             </article>
           </div>
           {/* END OF CONTACT OPTIONS */}
