@@ -1,6 +1,5 @@
 import React, { useRef } from 'react'
 import './contact.css'
-import Fade from 'react-reveal'
 import {MdOutlineEmail} from 'react-icons/md'
 import { FaWhatsapp } from 'react-icons/fa'
 import emailjs from '@emailjs/browser'
@@ -18,7 +17,6 @@ const Contact = () => {
     e.target.reset();
   }
   return (
-    <Fade top>
       <section id='contact'>
         <h5>Get In Touch</h5>
         <h2>Contact Me</h2>
@@ -47,7 +45,6 @@ const Contact = () => {
           </form>
         </div>
       </section>
-    </Fade>
   )
 }
 
