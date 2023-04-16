@@ -10,12 +10,12 @@ import logo from '../../assets/logo1.png'
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="/" aria-label="Go to the top of the page" className="footer__logo">
         <img src={logo} alt="Logo" />
         </a>
       
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="/" aria-label="Go to the top of the page">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Services</a></li>
