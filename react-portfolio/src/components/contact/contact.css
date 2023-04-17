@@ -52,6 +52,11 @@ input, textarea {
     resize: none;
     color: var(--color-white);
 }
+.whatsapp {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+}
 
 /*  ======== MEDIA QUERIES (MEDIUM DEVICES) ========= */
 @media screen and (max-width: 1024px) {

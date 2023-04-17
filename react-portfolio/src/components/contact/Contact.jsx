@@ -1,7 +1,8 @@
 import React, { useRef } from 'react'
 import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import { FaWhatsapp } from 'react-icons/fa'
+import WA from '../../assets/whatsapp.png'
+// import { FaWhatsapp } from 'react-icons/fa'
 import {FiPhoneCall} from 'react-icons/fi'
 import emailjs from '@emailjs/browser'
 
@@ -31,7 +32,8 @@ const Contact = () => {
               <a href="mailto:mtsumijr@gmail.com" target="__blank" rel="noreferrer"> Send a message</a>
             </article>
             <article className='contact__option'>
-              <FaWhatsapp className='contact__option-icon' />
+              {/* <FaWhatsapp className='contact__option-icon' /> */}
+              <img src={WA} alt="whatsapp" className='whatsapp'/>
               <h4>WhatsApp</h4>
               <h5>+254712531490</h5>
               <a href="https://api.whatsapp.com/send?phone=254712531490" target="__blank" rel="noreferrer"> Send a message</a>
