@@ -12,7 +12,7 @@ const Footer = () => {
     <footer>
       <a href="/" aria-label="Go to the top of the page" className="footer__logo">
         <img src={logo} alt="Logo" />
-        </a>
+      </a>
       
       <ul className='permalinks'>
         <li><a href="/" aria-label="Go to the top of the page">Home</a></li>

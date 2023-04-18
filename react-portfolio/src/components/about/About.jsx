@@ -44,7 +44,7 @@ const about = () => {
 
           </div>
           <p>
-          A Software Engineer with hands on experience developing websites, full-stack web applications and APIs.
+          A Software Engineer with hands on experience full-stack web applications and APIs.
           When I'm not tackling complex coding challenges,
           you'll find me in the pool perfecting my front crawl or in the outdoors pounding the pavement, 
           working out my body as much as my brain.
