@@ -3,7 +3,8 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import WA from '../../assets/whatsapp.png'
 // import { FaWhatsapp } from 'react-icons/fa'
-import {FiPhoneCall} from 'react-icons/fi'
+// import {FiPhoneCall} from 'react-icons/fi'
+import CALL from '../../assets/call.png'
 import emailjs from '@emailjs/browser'
 
 
@@ -39,7 +40,8 @@ const Contact = () => {
               <a href="https://api.whatsapp.com/send?phone=254712531490" target="__blank" rel="noreferrer"> Send a message</a>
             </article>
             <article className='contact__option'>
-              <FiPhoneCall className='contact__option-icon' />
+              {/* <FiPhoneCall className='contact__option-icon' /> */}
+              <img src={CALL} alt="call-icon" className='whatsapp'/>
               <h4>Call Me</h4>
               <h5>+254712531490</h5>
               <a href="tel:254712531490" target="__blank" rel="noreferrer"> Give me a Call</a>
@@ -48,7 +50,7 @@ const Contact = () => {
           {/* END OF CONTACT OPTIONS */}
           <form ref={form} onSubmit={sendEmail}>
             <input type="text" name='name' placeholder='Your Full Name' required />
-            <input type="email" name='email' placeholder='Your Email' required />
+            <input type="email" name='email' placeholder='Your Email Address' required />
             <textarea name="message" rows="10" placeholder='Your Message' required></textarea>
             <button type='submit' className='btn btn-primary'>Send Message</button>
           </form>

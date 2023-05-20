@@ -5,7 +5,7 @@ import {BsMedium} from 'react-icons/bs'
 import {BsLinkedin} from 'react-icons/bs'
 import {BsGithub} from 'react-icons/bs'
 import {BsTwitter} from 'react-icons/bs'
-import logo from '../../assets/logo1.png'
+import logo from '../../assets/logo.png'
 
 const Footer = () => {
   return (
